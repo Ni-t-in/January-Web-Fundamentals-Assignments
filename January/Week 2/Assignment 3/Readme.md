@@ -1,0 +1,1 @@
+Take n inputs from the user. It has to be dynamic(multiple n inputs by user). It should give maximum of all numbers.
