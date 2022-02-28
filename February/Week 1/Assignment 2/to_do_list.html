@@ -1,0 +1,104 @@
+<html>
+
+<head>
+    <title>
+        TO DO list
+    </title>
+    <style>
+        td {
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="text-align: center;color: rgb(182, 55, 41);"><span style="color: coral;">TO</span><span
+            style="color: salmon;">DO</span> App
+    </h1>
+    <form>
+        <table style="margin: auto;">
+            <thead style="text-align: center;">
+                <th colspan="2"><b>Tasks</b></th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="text-align: right;">
+                        <input type="checkbox" name="1" />
+                    </td>
+                    <td style="text-align:left;">
+                        <b>Wake Up</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: right;">
+                        <input type="checkbox" name="2" />
+                    </td>
+                    <td style="text-align:left;">
+                        <b>BreakFast</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: right;">
+                        <input type="checkbox" name="3" />
+                    </td>
+                    <td style="text-align:left;">
+                        <b>Lunch</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: right;">
+                        <input type="checkbox" name="4" />
+                    </td>
+                    <td style="text-align:left;">
+                        <b>Snacks</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: right;">
+                        <input type="checkbox" name="5" />
+                    </td>
+                    <td style="text-align:left;">
+                        <b>Dinner</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: right;">
+                        <input type="checkbox" name="6" />
+                    </td>
+                    <td style="text-align:left;">
+                        <b>Sleep</b>
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot style="text-align: center;">
+                <tr>
+                    <td colspan="2">
+                        <button name="sub" style="background-color: coral;">Exclude Selected</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="text" name="task" placeholder="Write today's task" />
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" value="Include" style="background-color: coral;" />
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <progress max="100"></progress><br />
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <p><b>Task Progress</b></p>
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+    </form>
+</body>
+
+</html>

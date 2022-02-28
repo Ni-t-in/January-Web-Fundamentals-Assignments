@@ -1,0 +1,104 @@
+.dropdownTeams > .mumbai{
+    margin-top: 1%;
+}
+.mumbai > a{
+    background-color: #004f91;
+    padding-left: 20.90%;
+    padding-right: 20.90%;
+    cursor: pointer;
+}
+.mumbaidropdown .owner>a,.mumbaidropdown .playing11>a,.mumbaidropdown .laststatus>a,.mumbaidropdown .titleWon>a{
+    background-color: #004f91;
+}
+.mumbaidropdown{
+    display: block;
+    position: absolute;
+}
+.mumbaidropdown a{
+    float: left;
+    width: 170px;
+    text-align: center;
+    margin-left: 245%;
+    display: none;
+}
+.mumbaidropdown .owner{
+    margin-left: 28.1%;
+    margin-top: -22%;
+}
+.mumbaidropdown .playing11{
+    margin-left: 28.1%;
+    margin-top: 20%;
+}
+.mumbaidropdown .laststatus{
+    margin-left: 28.1%;
+    margin-top: 40%;
+}
+.mumbaidropdown .titleWon{
+    margin-left: 28.1%;
+    margin-top: 60%;
+}
+.mumbaiTeamOwner{
+    position: absolute;
+    display: none;
+}
+.mumbaiTeamOwner a{
+    font-size: 20px;
+    background-color: #004f91;
+    border: 2px solid gold;
+    padding: 5px;
+    margin-left: 278%;
+}
+.mumbaiplaying11{
+    position: absolute;
+    display: none;
+}
+.mumbaiplaying11 a{
+    font-size: 20px;
+    background-color: #004f91;
+    border: 2px solid gold;
+    padding: 5px;
+    margin-left: 278%;
+}
+.mumbaiLastStatus{
+    position: absolute;
+    display :none;
+}
+.mumbaiLastStatus a{
+    font-size: 20px;
+    background-color: #004f91;
+    border: 2px solid gold;
+    padding: 5px;
+    margin-left: 278%;
+}
+.mumbaiTitleWon{
+    position: absolute;
+    display: none;
+}
+.mumbaiTitleWon a{
+    font-size: 20px;
+    background-color: #004f91;
+    border: 2px solid gold;
+    padding: 5px;
+    width: 250px;
+    margin-left: 193.2%;
+}
+.mumbai:hover > .mumbaidropdown a{
+    cursor: pointer;
+    display:block;
+}
+.owner:hover > .mumbaiTeamOwner{
+    cursor: pointer;
+    display: block;
+}
+.playing11:hover > .mumbaiplaying11{
+    cursor: pointer;
+    display: block;
+}
+.laststatus:hover > .mumbaiLastStatus{
+    cursor: pointer;
+    display: block;
+}
+.titleWon:hover > .mumbaiTitleWon{
+    cursor: pointer;
+    display: block;
+}

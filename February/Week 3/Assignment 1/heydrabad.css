@@ -1,0 +1,105 @@
+.dropdownTeams > .heydrabad{
+    margin-top: 3.1%;
+}
+.heydrabad > a{
+    background-color: #f7a721;
+    padding-left: 12.9%;
+    padding-right: 12.9%;
+    cursor: pointer;
+}
+.heydrabaddropdown .owner>a,.heydrabaddropdown .playing11>a,.heydrabaddropdown .laststatus>a,.heydrabaddropdown .titleWon>a{
+    background-color: #f7a721;
+}
+.heydrabaddropdown{
+    display: block;
+    position: absolute;
+}
+.heydrabaddropdown a{
+    float: left;
+    width: 170px;
+    text-align: center;
+    margin-left: 245%;
+    display: none;
+}
+.heydrabaddropdown .owner{
+    margin-left: 28.1%;
+    margin-top: -22%;
+}
+.heydrabaddropdown .playing11{
+    margin-left: 28.1%;
+    margin-top: 20%;
+}
+.heydrabaddropdown .laststatus{
+    margin-left: 28.1%;
+    margin-top: 40%;
+}
+.heydrabaddropdown .titleWon{
+    margin-left: 28.1%;
+    margin-top: 60%; 
+}
+.heydrabadTeamOwner{
+    position: absolute;
+    display: none;
+}
+.heydrabadTeamOwner a{
+    font-size: 20px;
+    background-color: #f7a721;
+    border: 2px solid gold;
+    padding: 5px;
+    margin-left: 278%;
+}
+.heydrabadplaying11{
+    position: absolute;
+    display: none;
+}
+.heydrabadplaying11 a{
+    font-size: 20px;
+    background-color: #f7a721;
+    border: 2px solid gold;
+    padding: 5px;
+    width: 200px;
+    margin-left: 239%;
+}
+.heydrabadLastStatus{
+    position: absolute;
+    display :none;
+}
+.heydrabadLastStatus a{
+    font-size: 20px;
+    background-color: #f7a721;
+    border: 2px solid gold;
+    padding: 5px;
+    margin-left: 278%;
+}
+.heydrabadTitleWon{
+    position: absolute;
+    display: none;
+}
+.heydrabadTitleWon a{
+    font-size: 20px;
+    background-color: #f7a721;
+    border: 2px solid gold;
+    padding: 5px;
+    width: 250px;
+    margin-left: 193.2%;
+}
+.heydrabad:hover > .heydrabaddropdown a{
+    cursor: pointer;
+    display:block;
+}
+.owner:hover > .heydrabadTeamOwner{
+    cursor: pointer;
+    display: block;
+}
+.playing11:hover > .heydrabadplaying11{
+    cursor: pointer;
+    display: block;
+}
+.laststatus:hover > .heydrabadLastStatus{
+    cursor: pointer;
+    display: block;
+}
+.titleWon:hover > .heydrabadTitleWon{
+    cursor: pointer;
+    display: block;
+}

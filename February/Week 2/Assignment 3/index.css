@@ -1,0 +1,16 @@
+table,tr,td,th{
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+th{
+    color: black;
+}
+tr:nth-child(3n+1){
+    color: lightgray
+}
+tr{
+    color: gray
+}
+tr:nth-child(3n+3){
+    color: darkslategray;
+}

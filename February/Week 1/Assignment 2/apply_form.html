@@ -1,0 +1,108 @@
+<html>
+
+<head>
+    <title>Geekster Apply Form</title>
+    <style>
+        #table {
+            width: 100%;
+            text-align: center;
+        }
+
+        tr {
+            text-align: center;
+        }
+
+        td {
+            padding: 20px;
+        }
+
+        #d1 {
+            margin-left: auto;
+        }
+    </style>
+</head>
+
+</html>
+
+<body>
+
+    <h1 style="text-align: center;"><span style="color: rgb(96, 206, 96);">Application</span> Form</h1>
+    <br />
+    <form>
+        <table id="table">
+            <tbody>
+                <tr>
+                    <td>
+                        <h2>Full Name*</h2>
+                        <input type="text" placeholder="Enter full name" name="sname" pattern="[a-zA-Z\s]+"
+                            maxlength="20" required />
+                    </td>
+                    <td>
+                        <h2>Email*</h2>
+                        <input type="email" placeholder="Enter email" name="smail" pattern=".+.[a-z]+\.com" required />
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" id="d1">
+                        <h2>Select Course*</h2>
+                        <select name="Select Course">
+                            <option disabled selected>Select Course</option>
+                            <option value="">Full Stack Web Development</option>
+                            <option value="">Advanced Web Development</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h2>Phone*</h2>
+                        <input type="tel" placeholder="Enter mobile Number" name="snum" maxlength="10"
+                            pattern="[6-9][0-9]{9}" required />
+                    </td>
+                    <td>
+                        <h2>Highest Degree*</h2>
+                        <select name="Highdeg">
+                            <option selected disabled>Select highest degree</option>
+                            <option value="1">B.E or B.Tech CS/IT</option>
+                            <option value="2">B.E or B.Tech Other</option>
+                            <option value="3">M.S or M.Tech CS/IT</option>
+                            <option value="4">M.S or M.Tech Other</option>
+                            <option value="5">BCA</option>
+                            <option value="6">MCA</option>
+                            <option value="7">Others</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h2>Year of Completion*</h2>
+                        <select>
+                            <option selected disabled>Select year of completion</option>
+                            <option value="11">2018</option>
+                            <option value="22">2019</option>
+                            <option value="33">2020</option>
+                            <option value="44">2021</option>
+                            <option value="55">2022</option>
+                            <option value="66">2023</option>
+                        </select>
+                    </td>
+                    <td>
+                        <h2>Programming Skills*</h2>
+                        <select>
+                            <option selected disabled>Select programming skill level</option>
+                            <option value="a">No coding skills</option>
+                            <option value="b">Basic coding skills</option>
+                            <option value="c">Intermediate Coding skills</option>
+                            <option value="d">Good coding skills</option>
+                        </select>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <br />
+        <p style="text-align: center;"> <input type="checkbox" />By signing up, you agree to the <span
+                style="color: rgb(96, 206, 96);">Terms and
+                Conditions</span> of Geekster (QuantumBit technologies Pvt. Ltd)*.</p>
+        <p style="margin-left: 330px;"><input type="submit"
+                style="color: white; background-color: rgb(96, 206, 96); " /></p>
+    </form>
+</body>

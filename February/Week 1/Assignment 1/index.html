@@ -1,0 +1,103 @@
+<html>
+
+<head>
+    <title>
+        07 Feb 2022
+    </title>
+</head>
+
+<body>
+    <h1>College Admission Form</h1>
+    <form action="1.html">
+        <p>Post Graduation or Under Graduation</p>
+        <input type="text" placeholder="UG/PG" name="degree" maxlength="15" required />
+        <br />
+        <br />
+        <p>Name of student</p>
+        <input type="text" placeholder="Student's Name" name="sname" pattern="[a-zA-Z\s]+" maxlength="20" required />
+        <br>
+        <br />
+        <p>Student's mobile number</p>
+        <input type="tel" size="1" value="+91" name="codest" pattern="\+[0-9]+" maxlength="4" />
+        <input type="tel" placeholder="Mobile Number" name="snum" maxlength="10" pattern="[6-9][0-9]{9}" required />
+        <br />
+        <br />
+        <p>Student's Email adress</p>
+        <input type="email" placeholder="Email Adress" name="smail" pattern=".+.[a-z]+\.com" required />
+        <br>
+        <br />
+        <p>Student's Date Of Birth</p>
+        <input type="date" placeholder="DOB" name="dob" required />
+        <br>
+        <br />
+        <p>Student's Time Of Birth</p>
+        <input type="time" placeholder="TOB" name="tob" />
+        <br />
+        <br />
+        <p>Name of student's Father</p>
+        <input type="text" placeholder="Father's Name" name="fname" pattern="[a-zA-Z\s]+" maxlength="20" required />
+        <br />
+        <br />
+        <p>Name of student's Mother</p>
+        <input type="text" placeholder="Mother's Name" name="mname" pattern="[a-zA-Z\s]+" maxlength="20" required />
+        <br />
+        <br />
+        <p>Parents mobile number</p>
+        <input type="tel" size="1" value="+91" name="codep1" pattern="\+[0-9]+" maxlength="4" />
+        <input type="tel" placeholder="Mobile Number" name="pnum1" maxlength="10" pattern="[6-9][0-9]{9}" required />
+        <br />
+        <br />
+        <input type="tel" size="1" value="+91" name="codep2" pattern="\+[0-9]+" maxlength="4" />
+        <input type="tel" placeholder="Mobile Number" name="pnum2" maxlength="10" pattern="[6-9][0-9]{9}" />
+        <br />
+        <br />
+        <p>Secondry School(X/10th grade)</p>
+        <input type="text" placeholder="School's Name" size="25" name="scn" pattern="[a-zA-Z\s.]+School" required />
+        <br />
+        <br />
+        <p>SSC Percentage (X/10th grade)</p>
+        <input type="number" placeholder="%" size="5" min="0" max="100" step="0.01" name="scp" required />
+        <br />
+        <br />
+        <p>Higher Secondry School(XII/12th grade)</p>
+        <input type="text" placeholder="School's Name" size="25" name="hscn" pattern="[a-zA-Z\s.]+School" required />
+        <br />
+        <br />
+        <p>HSC Percentage (XII/12th grade)</p>
+        <input type="number" placeholder="%" size="5" min="0" max="100" step="0.01" name="hscp" required />
+        <br />
+        <br />
+        <p>HSC Stream</p>
+        <input type="text" placeholder="PCM/PCB/Commerce" size="10" name="stream" required />
+        <br />
+        <br />
+        <p>If you chose for Post Graduation.</p>
+        <p>Note : Under Graduation Canditadates have to skip it.</p>
+        <br />
+        <p>Under Graduation Course</p>
+        <input type="text" value="Null" name="ugc" required />
+        <br />
+        <br />
+        <p>Under Graduation Percentage</p>
+        <input type="number" value="0" size="5" min="0" max="100" step="0.01" name="ugp" required />
+        <br />
+        <br />
+        <p>Desired Graduation Field</p>
+        <input type="text" placeholder="Graduation Field" size="10" name="grfield" required />
+        <br />
+        <br />
+        <p>Branch in desired field</p>
+        <input type="text" placeholder="Graduation Field" size="20" name="grbranch" required />
+        <br />
+        <br />
+        <p>Achievements</p>
+        <textarea name="ach" rows="5" cols="50" placeholder="Achievement if any" style="resize: none;"></textarea>
+        <br />
+        <br />
+        <input type="reset" />
+        <input type="submit" value="Confirm" />
+    </form>
+
+</body>
+
+</html>

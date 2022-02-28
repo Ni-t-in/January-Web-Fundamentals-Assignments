@@ -1,0 +1,112 @@
+body{
+    background-color: #FFBC80;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.background{
+    background-color: #FF9F45;
+    height: 95%;
+    width: 80%;
+    margin: auto;
+    margin-top: 2%;
+    border-radius: 40px;
+    box-shadow: 0px 0px 30px black;
+}
+.background div{
+    width: 70%;
+    height: 100%;
+    background-color: white;
+    float: right;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+.avatar{
+    width: 21%;
+    text-align: center;
+    margin-top: -42%;
+    margin-left: 11.5%;
+}
+.avatar img{
+    height: 220px;
+    width: 200px;
+}
+.avatar p:nth-child(1){
+    font-size: 20px;
+    color: white;
+}
+.avatar p:nth-child(3){
+    font-size: 30px;
+    font-weight: bold;
+    color: #FC4F4F;
+}
+.avatar p:nth-child(4){
+    font-size: 20px;
+    color: white;
+}
+.signup{
+    text-align: left;
+    z-index: 1;
+    position: absolute;
+    margin-left: 53%;
+    margin-top: -500px;
+}
+.signup > p{
+    font-size: 30px;
+    font-weight: bold;
+    color: #FC4F4F;
+}
+.signup form{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.signup form input:nth-child(2n){
+    font-size: 15px;
+    padding: 5px;
+    width: 300px;
+    float: left;
+    margin-bottom: 12px;
+    border-radius: 5px;
+    border: 1px solid #FFBC80;
+}
+.signup form input:nth-child(2n):focus{
+    outline: 1px solid #FC4F4F;
+    box-shadow: 0px 0px 10px #FC4F4F;
+}
+.signup form input:nth-child(12){
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 5px;
+    width: 300px;
+    float: left;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    border: 1px solid #FFBC80;
+}
+.signup form input:nth-child(12):focus{
+    outline: 1px solid #FC4F4F;
+    box-shadow: 0px 0px 10px #FC4F4F;
+}
+.signup form input:nth-child(14){
+    font-size: 15px;
+    padding: 5px;
+    width: 150px;
+    float: left;
+    margin-left: 70px;
+    border-radius: 5px;
+    background-color: #FC4F4F;
+    border: 2px solid #FF9F45;
+    font-weight: bold;
+    color: white;
+}
+.signup form input:nth-child(14):hover{
+    box-shadow: 0px 0px 5px black;
+}
+.signup form input:nth-child(14):active{
+    background-color:#FFBC80;
+    border: 2px solid #FF9F45;
+    font-weight: bold;
+    color: white;
+}
+.signup form p:nth-child(2n+1){
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 15px;
+}

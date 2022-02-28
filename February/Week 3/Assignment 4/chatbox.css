@@ -1,0 +1,147 @@
+body{
+    margin: 0px;
+    background-image: url("./images/facebook.jpg");
+    height: 1000px;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.chatbox{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 460px;
+    width: 400px;
+    background-color:white;
+    position:sticky; 
+    margin-left: 800px;
+    top:350px;
+    overflow-y:scroll;
+    border: 1px solid black;
+}
+header{
+    top: 0px;
+    position:sticky;
+}
+
+.header_chatbox{
+    display: inline-block;
+    height: 80px;
+    width: 400px;
+    border-bottom: 1px solid black;
+    background-color:#3360ff ;
+}
+.info{
+    width: 30%;
+    float: left;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.header_chatbox .info a{
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}
+.lastseen{
+    font-weight: normal;
+    font-weight: bold;
+    font-size: 15px;
+}
+.time{
+    font-weight: normal;
+    font-size: 12px;
+}
+.header_chatbox> im{
+    margin-left: 28px;
+}
+.header_icons{
+    float: right;
+    margin-right: 30px;
+}
+.header_icons>img{
+    height:15px;
+    width: 15px;
+    margin-left: 30px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+section{
+    margin-top: -180px;
+}
+.sender{
+    margin-bottom: 0;
+    margin-top: 50px;
+}
+.sender .date{
+    display: inline-block;
+    margin-left: 220px;
+    color:#6c757d;
+    font-size: 15px;
+    margin-top: 5px;
+}
+.sender span{
+    text-align: center;
+    display: block;
+    margin-left: 180px;
+    margin-top: 5px;
+    width:190px;
+    background-color: #5c79ff;
+    border-radius: 50px;
+    height: 20px;
+    padding: 5px;
+    color:white;
+    font-weight: bolder;
+}
+.recieved{
+    display: block;
+}
+.recieved a{
+    display: inline-block;
+    margin-left: 60px;
+    margin-top: 60px;
+    color:#6c757d;
+    font-size: 15px;
+}
+.recieved span{
+    display: block;
+    margin-top: 5px;
+    width:190px;
+    margin-left: 45px;
+    background-color:#ccdeff;
+    border-radius: 50px;
+    height: 10px;
+    padding: 0px 0px 20px 32px;
+    padding-left: 40px;
+    color:black;
+    font-weight: bolder;
+}
+.recieved span p{
+    margin-top: -20px;
+}
+.recieved  .image_user{
+    display: inline-block;
+    height: 25px;
+    background-color: grey;
+    border-radius: 50%;
+    margin-left: -80px;
+    
+}
+.footer_div input{   
+    text-align: center;
+    height: 30px;
+    width: 300px;
+    border-top: 1px solid black;
+    position:sticky;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+.footer_image{
+    display: inline-block;
+    margin: 5px;
+}
+.footer_image button{
+    height: 20px;
+    margin-top: 0px;
+    margin-left: 5px;
+    cursor:pointer;
+}

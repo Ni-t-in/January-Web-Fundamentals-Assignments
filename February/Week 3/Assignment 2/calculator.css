@@ -1,0 +1,75 @@
+body{
+    background-color: #FFC600;
+}
+.calculator{
+    background-color: #000000;
+    margin: auto;
+    width: 300px;
+    height: 570px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 50px black, 0px 0px 20px rgb(104, 94, 94) inset;
+    margin-top: 50px;
+}
+
+.buttons > a{
+    display: block;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    border: 3px solid #5800FF;
+    text-decoration: none;
+    color: #5800FF;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px #5800FF inset;
+} 
+.buttons > a:active{
+    border: 3px solid rgb(33, 255, 4);
+    box-shadow: 0px 0px 5px rgb(33, 255, 4);
+    color: rgb(33, 255, 4);
+
+}
+.buttons{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    border: 1px solid black;
+    width: 270px;
+    height: 300px;
+    margin-top: -330px;
+    margin-left: 540px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.buttons a:nth-child(15){
+    height: 45px;
+    width: 45px;
+    font-size: 40px;
+    border: 3px solid orangered;
+    color: orangered;
+    box-shadow: 0px 0px 5px orangered inset;
+}
+.buttons a:nth-child(15):active{
+    border: 3px solid rgb(33, 255, 4);
+    box-shadow: 0px 0px 5px rgb(33, 255, 4);
+    color: rgb(33, 255, 4);
+}
+.buttons a:nth-child(4n){
+    border: 3px solid #E900FF;
+    color: #E900FF;
+    box-shadow: 0px 0px 5px #E900FF inset;
+}
+.buttons a:nth-child(4n):active{
+    border: 3px solid rgb(33, 255, 4);
+    box-shadow: 0px 0px 5px rgb(33, 255, 4);
+    color: rgb(33, 255, 4);
+}
+.screen{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -450px;
+    margin-left: 670px;
+    color: #FFC600;
+}

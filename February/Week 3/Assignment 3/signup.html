@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>
+            Sign Up
+        </title>
+        <link rel="stylesheet" href="./signup.css">
+    </head>
+    <body>
+        <div class="background">
+            <div>
+
+            </div>
+        </div>
+        <div class="avatar">
+            <p>Upload your image</p>
+            <a href="./photo.html"><img src="./Avatar/avatar.png" alt="Avatar"/></a>
+            <p>Let's get you set up</p>
+            <p>It will only take a couple of minutes.</p>
+        </div>
+        <div class="signup">
+            <p>Sign up</p>
+            <form action="#">
+                <p>First name</p>
+                <input type="text" placeholder="First Name" name="firstname" pattern="[a-zA-Z\s]+" maxlength="10" required />
+                <p>Last name</p>
+                <input type="text" placeholder="Last Name" name="lastname" pattern="[a-zA-Z\s]+" maxlength="10" required />
+                <p>Mobile number</p>
+                <input type="tel" placeholder="Mobile Number" name="mobilenumber" maxlength="10" pattern="[6-9][0-9]{9}" required />
+                <p>Email adress</p>
+                <input type="email" placeholder="Email Adress" name="email" pattern=".+.[a-z]+\.com" required />
+                <p>Date Of Birth</p>
+                <input type="date" placeholder="DOB" name="dob" max="2004-01-01" required />
+                <p>Create Password</p>
+                <input type="password" placeholder="Enter password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,12}" required>
+                <br/>
+                <input type="submit" value="Create Account"/>
+            </form>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,100 @@
+body{
+    background-color: rgb(204, 182, 182);
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+.dropdownTrigger{
+    margin-top: 1%;
+    margin-left: 438px;
+    text-align: center;
+    width: 473px;
+    height: 60px;
+}
+.dropdownTeams{
+    margin-top: 3%;
+    margin-left: 10.5%;
+}
+.teamName{
+    display: none;
+}
+.teams{
+    font-size: 40px;
+    color: white;
+    background-color: #19388a;
+    padding: 5px;
+    border: gold 3px solid;   
+}
+.teams:hover{
+    color: black;
+    background-color: white;
+    border: 3px solid #19388a;
+    cursor: pointer;
+}
+.dropdownTrigger:hover > .dropdownTeams .teamName{
+    display: initial;
+}
+.teamName{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 5px;
+    border: 2px gold solid;
+    text-align: center;
+}
+.owner > a{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+    border: 2px gold solid;
+}
+.playing11 > a{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+    border: 2px gold solid;
+    display: none;
+}
+.lastStatus > a{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+    border: 2px gold solid;
+    display: none;
+}
+.titleWon > a{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+    border: 2px gold solid;
+    display: none;
+}
+.mumbai{
+    width: 375px;
+}
+.heydrabad{  
+    width: 375px;
+}
+.chennai{
+    width: 375px;
+}
+.banglore{
+    width: 375px;
+}
+.delhi{
+    width: 375px;
+}
+.kolkata{
+    width: 375px;
+}
+.punjab{
+    width: 375px;
+}
+.rajasthan{
+    width: 375px;
+}
+.lucknow{
+    width: 375px;
+}
+.gujrat{
+    width: 375px;    
+}
