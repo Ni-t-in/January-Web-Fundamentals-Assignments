@@ -1,0 +1,2 @@
+Create a page where I have 1 button. When I click on that button. Open a prompt. (Ask for a number).  
+(If it is NaN, then show some kind of alert or something) If it is a number, Print FizzBuzz Series upto that number.  
