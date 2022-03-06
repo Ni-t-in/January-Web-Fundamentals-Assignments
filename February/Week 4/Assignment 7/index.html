@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Swapping Numbers
+        </title>
+        <link rel="stylesheet" href="./index.css"></link>     <!--linking css files-->
+    </head>
+    <body>
+        <h1>Swap number Program</h1>                           
+        <form action="#">                                      <!--creating a form to take input from user-->
+            <p>This number will be stored in variable a</p>
+            <input type="text" id="firstnumber" placeholder="Enter first number">   <!--taking first value-->
+            <p>This number will be stored in variable b</p>
+            <input type="text" id="secondnumber" placeholder="Enter second number">  <!--taking second value-->
+            <h2 id="warning" class="popupwarning"></h2>                 <!--warning text will be shown here-->
+            <button onclick="swap()">Submit</button>                    <!--this button will invoke function-->
+            <h1>After Swapping</h1>
+            <p id="var_a"></p>                                              <!--displaying results-->
+            <p id="var_b"></p>
+        </form>
+        <script src="./index.js"></script>                                  <!--linking javascript file-->
+    </body>
+</html>

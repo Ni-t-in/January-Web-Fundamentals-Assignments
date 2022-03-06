@@ -1,0 +1,1 @@
+On the gallery, add the like/dislike functionalty. --> Each image will have it's own counter.

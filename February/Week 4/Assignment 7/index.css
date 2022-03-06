@@ -1,0 +1,19 @@
+/* stylesheet for swap number program */
+
+body{
+    margin: 1%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+input{
+    width: 150px;
+    font-size: 15px;
+    text-align: center;
+}
+.popupwarning{
+    color: red;
+}

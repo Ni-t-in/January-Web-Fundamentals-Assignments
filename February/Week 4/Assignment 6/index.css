@@ -1,0 +1,59 @@
+/* Stylesheet for popup */
+
+body{
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.popup{
+    background-color: palegoldenrod;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px black,0px 0px 10px goldenrod inset;
+    border: 2px solid gold;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 70vw;
+    height: 150px;
+    text-align: center;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.popup button{
+    background-color: rgb(18, 182, 185);
+    border: 2px solid skyblue;
+    box-shadow: 0px 0px 5px rgb(174, 223, 243) inset,0px 0px 4px rgb(70, 134, 134);
+    border-radius: 5px;
+    width: 50px;
+    height: 30px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.popup button:active{
+    box-shadow: 0px 0px 5px black inset;
+    font-size: 13px;
+}
+.call{
+    margin: auto;
+}
+.call button{
+    background-color: rgb(18, 182, 185);
+    border: 2px solid skyblue;
+    box-shadow: 0px 0px 5px rgb(174, 223, 243) inset,0px 0px 4px rgb(70, 134, 134);
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.call button:active{
+    box-shadow: 0px 0px 5px black inset;
+    font-size: 13px;
+}
+.display-none{
+    display: none;
+}

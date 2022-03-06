@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<!-- Creating a program to create password. -->
+<html>
+    <head>
+        <title>
+            Password Confirmation
+        </title>
+        <link rel="stylesheet" href="./index.css">
+    </head>
+    <body>
+        <div id="background">
+            <h1 id="message"></h1>                      <!--An empty element created to display infromation-->
+                <input type="password" id="inputPassword" placeholder="Enter Password" name="pass">
+                <input type="password" id="confirmPassword" placeholder="Confirm Password" name = "pass">    <!--Invoking function to check if passwords are correct or not-->
+                <input type="submit" value="Create password" onclick="checkPassword()" id="switch">
+        </div>
+        <script src="./index.js"></script>              <!--Linking Javascript file -->
+    </body>
+</html>
