@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Instagram</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <div id="header" class="headBar">
+        <img src="./Icons/instagram.png">
+        <img src="./Icons/plus.png" class="icon">
+        <img src="./Icons/message.png" class="icon">
+    </div>
+    <div id="searchBar" class="display_none">
+        <input type="text" placeholder="search">
+        <img src="./Icons/search.png" class="searchicon">
+    </div>
+    <div id="profile" class="display_none">
+        <!--here-->
+        <span>its._.nitin</span>
+        <img src="./Icons/plus.png" class="icon">
+        <img src="./Icons/threedot.png" class="icon">
+    </div>
+    <div id="home" class="homeImages">
+        <div class="feed">
+            <div class="info">
+                <span><img src="./Images/onepiece.jpg" class="feedicon"></span>
+                <span> One Piece</span>
+                <span><img src="./Icons/threedot.png" class="icon"></span>
+            </div>
+            <div class="photo">
+                <img src="./Images/onepiece.jpg" class="feedImage">
+            </div>
+        </div>
+        <div class="feed">
+            <div class="info">
+                <span><img src="./Images/sgintama.jpg" class="feedicon"></span>
+                <span>Sakata Gintoki</span>
+                <span><img src="./Icons/threedot.png" class="icon"></span>
+            </div>
+            <div class="photo">
+                <img src="./Images/sgintama.jpg" class="feedImage">
+            </div>
+        </div>
+        <div class="feed">
+            <div class="info">
+                <span><img src="./Images/jojos.jpg" class="feedicon"></span>
+                <span>Jotaro Kujo</span>
+                <span><img src="./Icons/threedot.png" class="icon"></span>
+            </div>
+            <div class="photo">
+                <img src="./Images/jojos.jpg" class="feedImage">
+            </div>
+        </div>
+    </div>
+    <div id="searchFeed" class="display_none">
+        <img src="./Images/blackclover.jpg" alt="" class="searchImage">
+        <img src="./Images/demonslayer.jpg" alt="" class="searchImage">
+        <img src="./Images/godofhighschool.jpg" alt="" class="searchImage">
+        <img src="./Images/dragonball.png" alt="" class="searchImage">
+        <img src="./Images/hunterx.jpg" alt="" class="searchImage">
+        <img src="./Images/jojos.jpg" alt="" class="searchImage">
+        <img src="./Images/jujutsukaisen.jpg" alt="" class="searchImage">
+        <img src="./Images/mobpsyco.jpg" alt="" class="searchImage">
+        <img src="./Images/onepiece.jpg" alt="" class="searchImage">
+        <img src="./Images/onepunch.jpg" alt="" class="searchImage">
+        <img src="./Images/ousamarankings.jpg" alt="" class="searchImage">
+        <img src="./Images/sgintama.jpg" alt="" class="searchImage">
+        <img src="./Images/blackclover.jpg" alt="" class="searchImage">
+        <img src="./Images/demonslayer.jpg" alt="" class="searchImage">
+        <img src="./Images/godofhighschool.jpg" alt="" class="searchImage">
+        <img src="./Images/dragonball.png" alt="" class="searchImage">
+        <img src="./Images/hunterx.jpg" alt="" class="searchImage">
+        <img src="./Images/jojos.jpg" alt="" class="searchImage">
+        <img src="./Images/jujutsukaisen.jpg" alt="" class="searchImage">
+        <img src="./Images/mobpsyco.jpg" alt="" class="searchImage">
+        <img src="./Images/onepiece.jpg" alt="" class="searchImage">
+        <img src="./Images/onepunch.jpg" alt="" class="searchImage">
+        <img src="./Images/ousamarankings.jpg" alt="" class="searchImage">
+        <img src="./Images/sgintama.jpg" alt="" class="searchImage">
+    </div>
+    <div id="profilePage" class="display_none">
+        <div class="profilepic">
+            <img src="./Images/mobpsyco.jpg">
+        </div>
+        <div class="followers">
+            <span>
+                0 <br />Posts
+            </span>
+            <span>
+                87 <br />Followers
+            </span>
+            <span>
+                127 <br />Following
+            </span>
+        </div>
+        <div class="follow">
+            <button>Follow</button>
+        </div>
+    </div>
+    <div id="navBar">
+        <img src="./Icons/home.png" onclick="homebutton()" class="icon">
+        <img src="./Icons/search.png" onclick="search()" class="icon">
+        <img src="./Icons/reels.png" class="icon">
+        <img src="./Icons/heart.png" class="icon">
+        <img src="./Images/mobpsyco.jpg" class="feedicon" onclick="profilebutton()">
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>
